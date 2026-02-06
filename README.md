@@ -56,15 +56,17 @@ NAVIGATOR/
 
 ### 🔧 Complete FIXME List
 
-- [ ] **navigator/visualizer/renderer.py:42** - Memory leak in buffer allocation
-- [ ] **navigator/visualizer/renderer.py:78** - Inefficient texture loading
-- [ ] **navigator/visualizer/canvas.py:156** - Canvas resize causes flicker
-- [ ] **navigator/inspector/model_parser.py:33** - Slow parsing for large models
-- [ ] **navigator/inspector/model_parser.py:89** - Missing support for custom layers
-- [ ] **navigator/inspector/layer_analyzer.py:67** - Incorrect gradient calculation
-- [ ] **navigator/core/graph_ops.py:112** - Numerical instability in softmax
-- [ ] **navigator/core/graph_ops.py:234** - Division by zero not handled
-- [ ] **navigator/utils/data_loader.py:45** - Race condition in async loading
+- [ ] **navigator/core/graph_ops.py:102** - Multi-head attention doesn't handle mask properly
+- [ ] **navigator/core/graph_ops.py:155** - Division by zero not handled
+- [ ] **navigator/inspector/layer_analyzer.py:58** - Incorrect gradient calculation
+- [ ] **navigator/inspector/model_parser.py:24** - Slow parsing for large models
+- [ ] **navigator/inspector/model_parser.py:33** - TensorFlow graph parsing misses control dependencies
+- [ ] **navigator/utils/data_loader.py:33** - Race condition in async loading
+- [ ] **navigator/utils/data_loader.py:50** - Cache eviction policy not implemented
+- [ ] **navigator/visualizer/canvas.py:15** - Canvas initialization should validate dimensions
+- [ ] **navigator/visualizer/canvas.py:132** - Canvas resize causes flicker
+- [ ] **navigator/visualizer/renderer.py:71** - Inefficient texture loading
+- [ ] **navigator/visualizer/renderer.py:84** - Texture retrieval should use lazy loading
 
 ## 📝 Contributing
 
